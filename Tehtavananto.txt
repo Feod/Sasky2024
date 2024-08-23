@@ -1,2 +1,3 @@
 Miikkan tekstitiedosto. Tulkaa tänne kirjoittaan jotain, tai tehkää omat tekstitiedostonne!
 Saako lähtiä kotio +1
+Taitaa tämä toimia
