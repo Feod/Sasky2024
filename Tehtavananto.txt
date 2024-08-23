@@ -1,4 +1,5 @@
 Miikkan tekstitiedosto. Tulkaa tänne kirjoittaan jotain, tai tehkää omat tekstitiedostonne!
 Saako lähtiä kotio +3
 Taitaa tämä toimia
-pliis himaa
+this -> pliis himaa
+
