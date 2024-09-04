@@ -1,0 +1,12 @@
+Hei! Tämä on vaihtoehtoinen ryhmätyökansio. Tavoitteena on tässä repositoriossa, tämän kansion sisällä harjoitella gitin ja GitHub toiminnallisuuksia.
+
+1. Käykää lisäämässä tänne työryhmäläisten nimet.
+
+Työryhmäläiset:
+Miikka,
+
+
+
+2. Tämän jälkeen meidän tulisi alustaa uusi projekti tähän repositorioon.
+	Osaisitko tallentaa uuden visual studio projektin tähän kansioon?
+
