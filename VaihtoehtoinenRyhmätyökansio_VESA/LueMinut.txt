@@ -3,7 +3,7 @@ Hei! Tämä on vaihtoehtoinen ryhmätyökansio. Tavoitteena on tässä repositor
 1. Käykää lisäämässä tänne työryhmäläisten nimet.
 
 Työryhmäläiset:
-Miikka,
+Miikka, Vesa
 
 
 
