@@ -10,3 +10,12 @@ Miikka, Vesa
 2. Tämän jälkeen meidän tulisi alustaa uusi projekti tähän repositorioon.
 	Osaisitko tallentaa uuden visual studio projektin tähän kansioon?
 
+
+
+Miikka: Moro! Jes. Näen tuon uuden tiedostolisäyksesi. Se on vähä kummallisesti nimetty ";" merkit tiedostonimessä vähän epätavallinen.
+
+-Voisitko uudelleen nimetä sen ilman erikoismerkkejä?
+
+-Voisit myös laittaa sinne sen random-name-generator-koodin mistä puhuit eilen, jos ei nyt keksi mitään luovempaa
+
+
