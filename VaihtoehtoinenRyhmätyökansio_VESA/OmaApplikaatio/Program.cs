@@ -12,6 +12,7 @@ class Program
         Thread.Sleep(1000);
         Console.WriteLine("----");
         Thread.Sleep(1000);
+        Console.WriteLine("Heipa Miikka! Mä funtsin että lähtisin tekeen tota heitä noppaa!! Kun toi on jo tehty toi nimi generattori.. Niin koitan jotain muuta vaihtelun vuoksi ");
 
         //Oikea toiminnallisuus alkaa tästä:
 
