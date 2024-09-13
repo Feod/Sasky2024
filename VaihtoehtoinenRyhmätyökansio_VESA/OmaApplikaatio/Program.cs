@@ -1,5 +1,7 @@
 ﻿using System;
 
+namespace NoppaPeli
+
 class Program
 {
     static void Main(string[] args)
@@ -28,6 +30,15 @@ class Program
         {
             Console.WriteLine("Valitsit nopan heiton");
             //TODO: Nopan heitto logiikka
+
+            //valitsee jokun numeron nopan numeroista väliltä 1-6
+            Random random = new Random();
+            int NopanLukema = random.Next(1, 7);
+
+            Console.WriteLine("Nopan lukema on: " + NopanLukema);
+
+            Console.WriteLine("Kiitos heitosta ja tervetuloa uudelleen!");
+            Console.ReadLine();
         }
         else if (vastaus_int == 2)
         {
