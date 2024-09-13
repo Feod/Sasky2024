@@ -1,60 +1,61 @@
 ﻿using System;
 
 namespace NoppaPeli
-
-class Program
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Heipa Miikka! Mä olen koittanut keksiä jotai mutta pää on ihan tyhjä!");
-        Thread.Sleep(1000);
-        Console.WriteLine("----");
-        Thread.Sleep(1000);
-        Console.WriteLine("Moro Vesa! Ei se mitään. Kokeillaan tehdä kuitenkin jokin toiminnallisuus tänne.");
-        Thread.Sleep(1000);
-        Console.WriteLine("----");
-        Thread.Sleep(1000);
-        Console.WriteLine("Heipa Miikka! Mä funtsin että lähtisin tekeen tota heitä noppaa!! Kun toi on jo tehty toi nimi generattori.. Niin koitan jotain muuta vaihtelun vuoksi ");
-
-        //Oikea toiminnallisuus alkaa tästä:
-
-        Console.WriteLine("Valitse toiminnallisuus");
-        Console.WriteLine("1: Heitä noppaa. 2: Generoi satunnainen nimi");
-
-
-        string vastaus = Console.ReadLine();
-        int vastaus_int = 0;
-        int.TryParse(vastaus, out vastaus_int);
-
-        if (vastaus_int == 1)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Valitsit nopan heiton");
-            //TODO: Nopan heitto logiikka
+            Console.WriteLine("Heipa Miikka! Mä olen koittanut keksiä jotai mutta pää on ihan tyhjä!");
+            Thread.Sleep(1000);
+            Console.WriteLine("----");
+            Thread.Sleep(1000);
+            Console.WriteLine("Moro Vesa! Ei se mitään. Kokeillaan tehdä kuitenkin jokin toiminnallisuus tänne.");
+            Thread.Sleep(1000);
+            Console.WriteLine("----");
+            Thread.Sleep(1000);
+            Console.WriteLine("Heipa Miikka! Mä funtsin että lähtisin tekeen tota heitä noppaa!! Kun toi on jo tehty toi nimi generattori.. Niin koitan jotain muuta vaihtelun vuoksi ");
 
-            //valitsee jokun numeron nopan numeroista väliltä 1-6
-            Random random = new Random();
-            int NopanLukema = random.Next(1, 7);
+            //Oikea toiminnallisuus alkaa tästä:
 
-            Console.WriteLine("Nopan lukema on: " + NopanLukema);
+            Console.WriteLine("Valitse toiminnallisuus");
+            Console.WriteLine("1: Heitä noppaa. 2: Generoi satunnainen nimi");
 
-            Console.WriteLine("Kiitos heitosta ja tervetuloa uudelleen!");
-            Console.ReadLine();
+
+            string vastaus = Console.ReadLine();
+            int vastaus_int = 0;
+            int.TryParse(vastaus, out vastaus_int);
+
+            if (vastaus_int == 1)
+            {
+                Console.WriteLine("Valitsit nopan heiton");
+                //TODO: Nopan heitto logiikka
+
+                //valitsee jokun numeron nopan numeroista väliltä 1-6
+                Random random = new Random();
+                int NopanLukema = random.Next(1, 7);
+
+                Console.WriteLine("Nopan lukema on: " + NopanLukema);
+
+                Console.WriteLine("Kiitos heitosta ja tervetuloa uudelleen!");
+                Console.ReadLine();
+            }
+            else if (vastaus_int == 2)
+            {
+                Console.WriteLine("Valitsit nimen");
+                //TODO: Nimi logiikka
+            }
+            else
+            {
+                Console.WriteLine("En ymmärtänyt vastaustasi");
+            }
+
+
+
+            Thread.Sleep(1000);
+            Console.WriteLine("Ohjelma on päättynyt");
+
+
         }
-        else if (vastaus_int == 2)
-        {
-            Console.WriteLine("Valitsit nimen");
-            //TODO: Nimi logiikka
-        }
-        else
-        {
-            Console.WriteLine("En ymmärtänyt vastaustasi");
-        }
-
-
-
-        Thread.Sleep(1000);
-        Console.WriteLine("Ohjelma on päättynyt");
-
-
     }
 }
